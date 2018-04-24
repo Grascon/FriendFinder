@@ -1,13 +1,16 @@
-var express = require("express");
-var router = express.Router();
+//Dependencies
+var path = require("path");
 
-//html routes
-router.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, "home.html"));
-});
-//////survey
-router.get("/survey", function (req, res) {
-    res.sendFile(path.join(__dirname, "survey.html"));
-});
+//HTML Route
+module.exports = function(app){
 
-module.exports = router;
+    //home page
+    app.get("/", function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/home.html"));
+    });
+
+    //survey page
+    app.get("/survey", function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/survey.html"));
+    });
+}

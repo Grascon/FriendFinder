@@ -7,12 +7,48 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <style>
+        body, html {
+            background-image: url("dark_matter.png");
+            font-family: 'Poppins', sans-serif;
+            color: black;
+        }
+        .container {
+            margin: 0 auto;
+            margin-bottom: 75px;
+        }
+        header {
+            background-color: #2846a3;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        input, select {
+            color: black;
+        }
+        h3{
+            color:  black;
+        }
+        footer {
+            background-color: #2846a3;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
+        <header>
+            <h1><span class="glyphicon glyphicon-user"></span> Friend Finder</h1>
+        </header>
         <div class="jumbotron">
-            <h1><span class="glyphicon glyphicon-heart"></span> Friend Finder</h1>
-            <hr>
             <h3>Answer a few basic questions</h3>
             <h3>Then find the friend with the greatest compatibility!</h3>
             <a href="/survey">
@@ -20,12 +56,16 @@
                     <span class="glyphicon glyphicon-list-alt"></span> Go to Survey</button>
             </a>
         </div>
-        <footer>
-            <div>
+    </div>
+    <footer>
+            <div align="center">
+                <div align="center">
+                    <h4>&copy Copyright Gilberto Rascon 2018</h4>
+                </div>
+                <a href="/">Home </a>|
                 <a href="/api/friends" target="_blank">API Friends Link </a>|
                 <a href="https://github.com/Grascon/FriendFinder" target="_blank">Github Repo</a>
             <div>
-        </footer>
-    </div>
+    </footer>
 </body>
 </html>
