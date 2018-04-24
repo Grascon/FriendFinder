@@ -9,4 +9,4 @@
         <li>Express</li>
     </ul>
 <br>
-<a href="https://afternoon-peak-41039.herokuapp.com/" target="_blank"><h3>Live Demo</h3></a>|
+<a href="https://afternoon-peak-41039.herokuapp.com/" target="_blank">Live Demo</a>
