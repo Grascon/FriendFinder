@@ -30,6 +30,22 @@ var friendsArr = [
             2,
             4
         ]
+    },
+    {
+        "name":"Jesus",
+        "photo":"http://i2.kym-cdn.com/photos/images/newsfeed/000/662/285/da8.jpg",
+        "scores":[
+            3,
+            5,
+            5,
+            5,
+            5,
+            5,
+            1,
+            5,
+            1,
+            5
+        ]
     }
       
 ];

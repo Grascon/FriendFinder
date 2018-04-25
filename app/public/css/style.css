@@ -15,9 +15,16 @@ header {
 }
 input, select {
     color: black;
+    text-align: center;
 }
-h3{
+h3 {
     color:  black;
+}
+#about-you {
+    color: white;
+}
+#exampleModalLabel {
+    color: black;
 }
 footer {
     background-color: #2846a3;
